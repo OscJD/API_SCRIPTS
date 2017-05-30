@@ -8,3 +8,5 @@ drone = api.navigation()
 time.sleep(3.0)
 
 drone.disarm()
+
+drone.disconnect()
