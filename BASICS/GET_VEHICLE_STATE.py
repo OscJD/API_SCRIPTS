@@ -2,8 +2,9 @@
 
 # create flyt_python navigation class instance
 
-from flyt_python import API
-drone = API.navigation()
+from flyt_python import api
+import time
+drone = api.navigation()
 time.sleep(3.0)
 
 # get arm status
