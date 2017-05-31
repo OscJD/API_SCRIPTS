@@ -10,6 +10,7 @@ time.sleep(3.0)
 # takeoff over current location 
 drone.take_off(6.0)
 
+drone.disconnect()
 
 """
 
