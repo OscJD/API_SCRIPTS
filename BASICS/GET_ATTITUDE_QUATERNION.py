@@ -12,7 +12,7 @@ att = drone.get_attitude_quaternion()
 # Print the data
 print att.x, att.y, att.z, att.w, att.rollspeed, att.pitchspeed, att.yawspeed
 
-
+drone.disconnect()
 
 """
 
