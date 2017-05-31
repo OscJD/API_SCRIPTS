@@ -10,6 +10,8 @@ time.sleep(3.0)
 # hold position
 drone.position_hold()
 
+drone.disconnect()
+
 
 
 
