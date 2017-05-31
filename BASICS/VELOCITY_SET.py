@@ -10,6 +10,7 @@ time.sleep(3.0)
 # fly towards right ( with respect to vehicle current heading) 
 drone.velocity_set(0, +2, 0, body_frame=True)
 
+drone.disconnect()
 
 
 """
