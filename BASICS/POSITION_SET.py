@@ -9,7 +9,7 @@ time.sleep(3.0)
 # command vehicle towards 5 meteres SOUTH from current location regardless of heading
 drone.position_set(-5, 0, 0, relative=True)
 
-
+drone.disconnect()
 
 """"
 
