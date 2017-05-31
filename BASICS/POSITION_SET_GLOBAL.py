@@ -9,6 +9,7 @@ time.sleep(3.0)
 # send vehicle to GPS coordinate with height 10 meters above current height.
 drone.position_set_global(18.7342124, 73.4323233, 10)
 
+drone.disconnect()
 
 
 
