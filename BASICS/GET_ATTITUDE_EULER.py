@@ -12,6 +12,7 @@ att = drone.get_attitude_euler()
 # Print the data
 print att.roll, att.pitch, att.yaw, att.rollspeed, att.pitchspeed, att.yawspeed
 
+drone.disconnect()
 
 
 """
