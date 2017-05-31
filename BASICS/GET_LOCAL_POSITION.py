@@ -12,6 +12,8 @@ pos = drone.get_local_position()
 # Print the data
 print pos.x, pos.vx
 
+drone.disconnect()
+
 
 """
 
