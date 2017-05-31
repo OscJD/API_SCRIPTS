@@ -11,7 +11,7 @@ time.sleep(3.0)
 print drone.is_armed()
 print drone.get_vehicle_mode()
 
-
+drone.disconnect()
 
 """
 
