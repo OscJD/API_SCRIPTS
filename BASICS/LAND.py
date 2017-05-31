@@ -13,6 +13,8 @@ drone.land(async=False)
 # land at current location. Function returns immediately and land action finishes asynchronously.  
 drone.land(async=True)
 
+drone.disconnect()
+
 """
 
 # Python API described below can be used in onboard scripts only. For remote scripts you can use http client libraries to call FlytOS REST endpoints from python.
