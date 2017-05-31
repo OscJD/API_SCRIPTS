@@ -12,6 +12,7 @@ gpos = drone.get_global_position()
 # Print the data
 print gpos.lat, gpos.lon, gpos.alt
 
+drone.disconnect()
 
 """
 
