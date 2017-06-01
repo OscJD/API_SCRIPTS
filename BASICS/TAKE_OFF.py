@@ -18,5 +18,5 @@ Class: flyt_python.API.navigation
 
 Function: take_off(self, takeoff_alt=5.0):
 
-
+minimum takeoff_alt=3.0
 """
